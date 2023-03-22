@@ -1,0 +1,24 @@
+#header {
+    font-family: sans-serif;
+    background-color: #161a23;
+    overflow: hidden;
+    width: var(--container-width);
+    font-size: var(--small-font-size);
+}
+#header h1 {
+    color: #bac3cb;
+    padding-left: 50px;
+}
+#header h2 {
+    color: #a3abb1;
+    padding-left: 50px;
+}
+#header h1::after {
+    color: transparent;
+    content: " | Group: P32151";
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+#header h1:hover::after {
+    color: #a3abb1;
+}

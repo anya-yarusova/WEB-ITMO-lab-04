@@ -1,0 +1,24 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px  solid #2a3a62;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+    background-color: #0c1116 !important;
+    color:  #bac3cb !important;
+    text-align: center;
+}
+
+thead, tr, th, td, select, svg {
+    background-color: #0c1116 !important;
+    color:  #bac3cb !important;
+    text-align: left;
+    font-weight: bold;
+}
+
+th, td, tr {
+    border: 1px solid #2a3a62 !important;
+}
